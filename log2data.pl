@@ -21,7 +21,7 @@ exit;
 sub custom_processor {
 	open(FILE,'>log2data.log');
 	foreach (@RESULTS) {
-	  print FILE $_."\n";
+		print FILE $_."\n";
 	}
 	close(FILE);
 }
