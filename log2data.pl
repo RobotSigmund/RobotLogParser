@@ -18,15 +18,23 @@ sleep(3);
 
 exit;
 
+
+# ---------- Custom parsing code goes here ---------------------------------------
+
+# Every line in @RESULTS should be in the following format
+# <YEAR>;<MONTH>;<DAY>;<HOUR>;<MINUTE>;<SECOND>;<LOG_TEXT_LINE>
+
 sub custom_processor {
 	open(FILE,'>log2data.log');
 	foreach (@RESULTS) {
-		print FILE $_."\n";
+	  print FILE $_."\n";
 	}
 	close(FILE);
 }
 
+
 # --------------------------------------------------------------------------------
+
 
 sub scandir {
 	my($dirname) = @_;
