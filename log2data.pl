@@ -1,12 +1,35 @@
 #!c:/perl/bin/perl
 
+use strict;
+use warnings;
+
+# Global data array. Will be filled and sorted for easy processing.
+my(@RESULTS);
+
+# ---------- Custom parsing code goes here ---------------------------------------
+
+# Every line in @RESULTS should be in the following format
+# <YEAR>;<MONTH>;<DAY>;<HOUR>;<MINUTE>;<SECOND>;<LOG_TEXT_LINE>
+
+
+sub custom_processor {
+	
+	# Write resultarray to file
+	open(FILE,'>log2data.log');
+	foreach (@RESULTS) {
+	  print FILE $_."\n";
+	}
+	close(FILE);
+	
+}
+
+
+# --------------------------------------------------------------------------------
+
 $| = 1;
 
-# Clear data (not really necessary)
-my(@RESULTS);
- 
 print 'Scanning folders and subfolders...'."\n";
-scandir('BACKUP\4600-107986_Backup_20200325\HOME\logs');
+scandir('.\Logs');
 
 print 'Sorting results...'."\n";
 @RESULTS = sort @RESULTS;
@@ -19,24 +42,7 @@ sleep(3);
 
 exit;
 
-
-# ---------- Custom parsing code goes here ---------------------------------------
-
-# Every line in @RESULTS should be in the following format
-# <YEAR>;<MONTH>;<DAY>;<HOUR>;<MINUTE>;<SECOND>;<LOG_TEXT_LINE>
-
-
-sub custom_processor {
-	open(FILE,'>log2data.log');
-	foreach (@RESULTS) {
-	  print FILE $_."\n";
-	}
-	close(FILE);
-}
-
-
 # --------------------------------------------------------------------------------
-
 
 sub scandir {
 	my($dirname) = @_;
@@ -44,7 +50,7 @@ sub scandir {
 	
 	print '  '.$dirname."\n";
 	
-	opendir($DIR,$dirname);
+	opendir($DIR,$dirname) or die('Error - Cant open "'.$dirname.'"');
 	
 	foreach $de (readdir($DIR)) {
 		# Skip '.' and '..'
@@ -66,14 +72,15 @@ sub scandir {
 	closedir($DIR);
 }
 
+# --------------------------------------------------------------------------------
 
 sub readlogfile {
 	my($filename) = @_;
-	my($file_yer,$file_mth,$file_day,$line_hur,$line_min,$line_sec,$line_res,$line_text,$line);
+	my($filedate,$file_yer,$file_mth,$file_day,$line_hur,$line_min,$line_sec,$line_text,$line,$FILE);
 	
 	print '    '.$filename."\n";
 	
-	open($FILE,'<'.$filename);
+	open($FILE,'<'.$filename) or die('Error - Cant open "'.$filename.'"');
 	
 	# Read first line (date)
 	$filedate = <$FILE>;
@@ -105,3 +112,5 @@ sub readlogfile {
 	
 	close($FILE);
 }
+
+# --------------------------------------------------------------------------------

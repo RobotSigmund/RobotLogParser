@@ -1,0 +1,347 @@
+2022-09-01
+12:46:36 T_ROB1-> giPlcCommand=1000
+12:46:36 T_ROB1->J:1000
+12:46:36 T_ROB1-> goPlcResponse=>1000
+12:46:52 T_ROB1-> goPlcResponse=>1010
+12:46:52 T_ROB1-> giPlcCommand=1034
+12:46:54 T_ROB1-> goPlcResponse=>1034
+12:47:02 T_ROB1-> goPlcResponse=>1040
+12:47:02 T_ROB1-> giPlcCommand=1100
+12:47:02 T_ROB1-> goPlcResponse=>1100
+12:47:07 T_ROB1-> goPlcResponse=>1110
+12:47:07 T_ROB1-> giPlcCommand=1120
+12:47:13 T_ROB1-> goPlcResponse=>1130
+12:47:35 T_ROB1-> giPlcCommand=1140
+12:47:38 T_ROB1-> goPlcResponse=>1150
+12:47:38 T_ROB1-> giPlcCommand=0
+12:47:39 T_ROB1-> goPlcResponse=>0
+12:47:50 T_ROB1->J:9000
+12:50:39 T_ROB1-> giPlcCommand=1000
+12:50:39 T_ROB1->J:1000
+12:50:39 T_ROB1-> goPlcResponse=>1000
+12:50:56 T_ROB1-> goPlcResponse=>1010
+12:50:56 T_ROB1-> giPlcCommand=1035
+12:50:57 T_ROB1-> goPlcResponse=>1035
+12:51:05 T_ROB1-> goPlcResponse=>1040
+12:51:05 T_ROB1-> giPlcCommand=1100
+12:51:05 T_ROB1-> goPlcResponse=>1100
+12:51:10 T_ROB1-> goPlcResponse=>1110
+12:51:10 T_ROB1-> giPlcCommand=1120
+12:51:16 T_ROB1-> goPlcResponse=>1130
+12:51:38 T_ROB1-> giPlcCommand=1140
+12:51:41 T_ROB1-> goPlcResponse=>1150
+12:51:41 T_ROB1-> giPlcCommand=0
+12:51:43 T_ROB1-> goPlcResponse=>0
+12:51:43 T_ROB1-> giPlcCommand=3010
+12:51:43 T_ROB1->J:3010
+12:51:43 T_ROB1-> goPlcResponse=>3010
+12:51:54 T_ROB1-> goPlcResponse=>3020
+12:51:54 T_ROB1-> giPlcCommand=3030
+12:51:54 T_ROB1-> goPlcResponse=>3030
+12:52:01 T_ROB1-> goPlcResponse=>3040
+12:52:01 T_ROB1-> giPlcCommand=0
+12:52:02 T_ROB1-> goPlcResponse=>0
+12:52:13 T_ROB1->J:9000
+12:54:01 T_ROB1-> giPlcCommand=1000
+12:54:01 T_ROB1->J:1000
+12:54:01 T_ROB1-> goPlcResponse=>1000
+12:54:17 T_ROB1-> goPlcResponse=>1010
+12:54:17 T_ROB1-> giPlcCommand=1020
+12:54:19 T_ROB1-> goPlcResponse=>1020
+12:54:29 T_ROB1-> goPlcResponse=>1040
+12:54:29 T_ROB1-> giPlcCommand=1100
+12:54:30 T_ROB1-> goPlcResponse=>1100
+12:54:34 T_ROB1-> goPlcResponse=>1110
+12:54:35 T_ROB1-> giPlcCommand=1120
+12:54:40 T_ROB1-> goPlcResponse=>1130
+12:55:03 T_ROB1-> giPlcCommand=1140
+12:55:05 T_ROB1-> goPlcResponse=>1150
+12:55:05 T_ROB1-> giPlcCommand=0
+12:55:07 T_ROB1-> goPlcResponse=>0
+12:55:17 T_ROB1->J:9000
+12:57:24 T_ROB1-> giPlcCommand=1000
+12:57:24 T_ROB1->J:1000
+12:57:24 T_ROB1-> goPlcResponse=>1000
+12:57:41 T_ROB1-> goPlcResponse=>1010
+12:57:41 T_ROB1-> giPlcCommand=1021
+12:57:42 T_ROB1-> goPlcResponse=>1021
+12:57:52 T_ROB1-> goPlcResponse=>1040
+12:57:52 T_ROB1-> giPlcCommand=1100
+12:57:53 T_ROB1-> goPlcResponse=>1100
+12:57:58 T_ROB1-> goPlcResponse=>1110
+12:57:58 T_ROB1-> giPlcCommand=1120
+12:58:03 T_ROB1-> goPlcResponse=>1130
+12:58:26 T_ROB1-> giPlcCommand=1140
+12:58:28 T_ROB1-> goPlcResponse=>1150
+12:58:28 T_ROB1-> giPlcCommand=0
+12:58:30 T_ROB1-> goPlcResponse=>0
+12:58:40 T_ROB1->J:9000
+12:59:35 T_ROB1->E:QStop
+12:59:52 T_ROB1->E:Restart
+13:02:17 T_ROB1-> giPlcCommand=1000
+13:02:17 T_ROB1->J:1000
+13:02:17 T_ROB1-> goPlcResponse=>1000
+13:02:34 T_ROB1-> goPlcResponse=>1010
+13:02:34 T_ROB1-> giPlcCommand=1022
+13:02:36 T_ROB1-> goPlcResponse=>1022
+13:02:45 T_ROB1-> goPlcResponse=>1040
+13:02:45 T_ROB1-> giPlcCommand=1100
+13:02:46 T_ROB1-> goPlcResponse=>1100
+13:02:51 T_ROB1-> goPlcResponse=>1110
+13:02:51 T_ROB1-> giPlcCommand=1120
+13:02:56 T_ROB1-> goPlcResponse=>1130
+13:03:19 T_ROB1-> giPlcCommand=1140
+13:03:21 T_ROB1-> goPlcResponse=>1150
+13:03:21 T_ROB1-> giPlcCommand=0
+13:03:23 T_ROB1-> goPlcResponse=>0
+13:03:33 T_ROB1->J:9000
+13:05:42 T_ROB1-> giPlcCommand=1000
+13:05:42 T_ROB1->J:1000
+13:05:42 T_ROB1-> goPlcResponse=>1000
+13:05:59 T_ROB1-> goPlcResponse=>1010
+13:05:59 T_ROB1-> giPlcCommand=1023
+13:06:00 T_ROB1-> goPlcResponse=>1023
+13:06:09 T_ROB1-> goPlcResponse=>1040
+13:06:09 T_ROB1-> giPlcCommand=1100
+13:06:10 T_ROB1-> goPlcResponse=>1100
+13:06:15 T_ROB1-> goPlcResponse=>1110
+13:06:15 T_ROB1-> giPlcCommand=1120
+13:06:21 T_ROB1-> goPlcResponse=>1130
+13:06:43 T_ROB1-> giPlcCommand=1140
+13:06:46 T_ROB1-> goPlcResponse=>1150
+13:06:46 T_ROB1-> giPlcCommand=0
+13:06:47 T_ROB1-> goPlcResponse=>0
+13:06:57 T_ROB1->J:9000
+13:09:00 T_ROB1-> giPlcCommand=1000
+13:09:00 T_ROB1->J:1000
+13:09:01 T_ROB1-> goPlcResponse=>1000
+13:09:17 T_ROB1-> goPlcResponse=>1010
+13:09:17 T_ROB1-> giPlcCommand=1024
+13:09:18 T_ROB1-> goPlcResponse=>1024
+13:09:27 T_ROB1-> goPlcResponse=>1040
+13:09:27 T_ROB1-> giPlcCommand=1100
+13:09:28 T_ROB1-> goPlcResponse=>1100
+13:09:33 T_ROB1-> goPlcResponse=>1110
+13:09:33 T_ROB1-> giPlcCommand=1120
+13:09:39 T_ROB1-> goPlcResponse=>1130
+13:10:01 T_ROB1-> giPlcCommand=1140
+13:10:04 T_ROB1-> goPlcResponse=>1150
+13:10:04 T_ROB1-> giPlcCommand=0
+13:10:06 T_ROB1-> goPlcResponse=>0
+13:10:06 T_ROB1-> giPlcCommand=2000
+13:10:06 T_ROB1->J:2000
+13:10:06 T_ROB1-> goPlcResponse=>2000
+13:10:12 T_ROB1-> goPlcResponse=>2010
+13:10:12 T_ROB1-> giPlcCommand=2029
+13:10:12 T_ROB1-> goPlcResponse=>2029
+13:10:23 T_ROB1-> goPlcResponse=>2040
+13:10:23 T_ROB1-> giPlcCommand=0
+13:10:23 T_ROB1-> goPlcResponse=>0
+13:10:33 T_ROB1->J:9000
+13:13:37 T_ROB1-> giPlcCommand=1000
+13:13:37 T_ROB1->J:1000
+13:13:37 T_ROB1-> goPlcResponse=>1000
+13:13:54 T_ROB1-> goPlcResponse=>1010
+13:13:54 T_ROB1-> giPlcCommand=1025
+13:13:55 T_ROB1-> goPlcResponse=>1025
+13:14:04 T_ROB1-> goPlcResponse=>1040
+13:14:04 T_ROB1-> giPlcCommand=1100
+13:14:05 T_ROB1-> goPlcResponse=>1100
+13:14:10 T_ROB1-> goPlcResponse=>1110
+13:14:10 T_ROB1-> giPlcCommand=1120
+13:14:15 T_ROB1-> goPlcResponse=>1130
+13:14:38 T_ROB1-> giPlcCommand=1140
+13:14:40 T_ROB1-> goPlcResponse=>1150
+13:14:40 T_ROB1-> giPlcCommand=0
+13:14:42 T_ROB1-> goPlcResponse=>0
+13:14:52 T_ROB1->J:9000
+13:17:16 T_ROB1-> giPlcCommand=1000
+13:17:16 T_ROB1->J:1000
+13:17:16 T_ROB1-> goPlcResponse=>1000
+13:17:32 T_ROB1-> goPlcResponse=>1010
+13:17:32 T_ROB1-> giPlcCommand=1026
+13:17:34 T_ROB1-> goPlcResponse=>1026
+13:17:43 T_ROB1-> goPlcResponse=>1040
+13:17:43 T_ROB1-> giPlcCommand=1100
+13:17:43 T_ROB1-> goPlcResponse=>1100
+13:17:48 T_ROB1-> goPlcResponse=>1110
+13:17:48 T_ROB1-> giPlcCommand=1120
+13:17:54 T_ROB1-> goPlcResponse=>1130
+13:18:16 T_ROB1-> giPlcCommand=1140
+13:18:19 T_ROB1-> goPlcResponse=>1150
+13:18:19 T_ROB1-> giPlcCommand=0
+13:18:21 T_ROB1-> goPlcResponse=>0
+13:18:31 T_ROB1->J:9000
+13:20:40 T_ROB1-> giPlcCommand=1000
+13:20:40 T_ROB1->J:1000
+13:20:40 T_ROB1-> goPlcResponse=>1000
+13:20:57 T_ROB1-> goPlcResponse=>1010
+13:20:57 T_ROB1-> giPlcCommand=1027
+13:20:58 T_ROB1-> goPlcResponse=>1027
+13:21:07 T_ROB1-> goPlcResponse=>1040
+13:21:07 T_ROB1-> giPlcCommand=1100
+13:21:08 T_ROB1-> goPlcResponse=>1100
+13:21:12 T_ROB1-> goPlcResponse=>1110
+13:21:12 T_ROB1-> giPlcCommand=1120
+13:21:18 T_ROB1-> goPlcResponse=>1130
+13:21:41 T_ROB1-> giPlcCommand=1140
+13:21:43 T_ROB1-> goPlcResponse=>1150
+13:21:43 T_ROB1-> giPlcCommand=0
+13:21:45 T_ROB1-> goPlcResponse=>0
+13:21:55 T_ROB1->J:9000
+13:24:08 T_ROB1-> giPlcCommand=1000
+13:24:08 T_ROB1->J:1000
+13:24:08 T_ROB1-> goPlcResponse=>1000
+13:24:25 T_ROB1-> goPlcResponse=>1010
+13:24:25 T_ROB1-> giPlcCommand=1028
+13:24:26 T_ROB1-> goPlcResponse=>1028
+13:24:35 T_ROB1-> goPlcResponse=>1040
+13:24:35 T_ROB1-> giPlcCommand=1100
+13:24:35 T_ROB1-> goPlcResponse=>1100
+13:24:40 T_ROB1-> goPlcResponse=>1110
+13:24:40 T_ROB1-> giPlcCommand=1120
+13:24:46 T_ROB1-> goPlcResponse=>1130
+13:25:08 T_ROB1-> giPlcCommand=1140
+13:25:11 T_ROB1-> goPlcResponse=>1150
+13:25:11 T_ROB1-> giPlcCommand=0
+13:25:13 T_ROB1-> goPlcResponse=>0
+13:25:23 T_ROB1->J:9000
+13:27:31 T_ROB1-> giPlcCommand=1000
+13:27:31 T_ROB1->J:1000
+13:27:31 T_ROB1-> goPlcResponse=>1000
+13:27:47 T_ROB1-> goPlcResponse=>1010
+13:27:48 T_ROB1-> giPlcCommand=1029
+13:27:49 T_ROB1-> goPlcResponse=>1029
+13:27:58 T_ROB1-> goPlcResponse=>1040
+13:27:58 T_ROB1-> giPlcCommand=1100
+13:27:58 T_ROB1-> goPlcResponse=>1100
+13:28:03 T_ROB1-> goPlcResponse=>1110
+13:28:03 T_ROB1-> giPlcCommand=1120
+13:28:08 T_ROB1-> goPlcResponse=>1130
+13:28:31 T_ROB1-> giPlcCommand=1140
+13:28:33 T_ROB1-> goPlcResponse=>1150
+13:28:33 T_ROB1-> giPlcCommand=0
+13:28:35 T_ROB1-> goPlcResponse=>0
+13:28:45 T_ROB1->J:9000
+13:31:18 T_ROB1-> giPlcCommand=1000
+13:31:18 T_ROB1->J:1000
+13:31:18 T_ROB1-> goPlcResponse=>1000
+13:31:35 T_ROB1-> goPlcResponse=>1010
+13:31:35 T_ROB1-> giPlcCommand=1030
+13:31:37 T_ROB1-> goPlcResponse=>1030
+13:31:45 T_ROB1-> goPlcResponse=>1040
+13:31:45 T_ROB1-> giPlcCommand=1100
+13:31:45 T_ROB1-> goPlcResponse=>1100
+13:31:50 T_ROB1-> goPlcResponse=>1110
+13:31:50 T_ROB1-> giPlcCommand=1120
+13:31:55 T_ROB1-> goPlcResponse=>1130
+13:32:18 T_ROB1-> giPlcCommand=1140
+13:32:21 T_ROB1-> goPlcResponse=>1150
+13:32:21 T_ROB1-> giPlcCommand=0
+13:32:22 T_ROB1-> goPlcResponse=>0
+13:32:32 T_ROB1->J:9000
+13:34:38 T_ROB1-> giPlcCommand=1000
+13:34:38 T_ROB1->J:1000
+13:34:38 T_ROB1-> goPlcResponse=>1000
+13:34:54 T_ROB1-> goPlcResponse=>1010
+13:34:54 T_ROB1-> giPlcCommand=1031
+13:34:56 T_ROB1-> goPlcResponse=>1031
+13:35:04 T_ROB1-> goPlcResponse=>1040
+13:35:04 T_ROB1-> giPlcCommand=1100
+13:35:04 T_ROB1-> goPlcResponse=>1100
+13:35:09 T_ROB1-> goPlcResponse=>1110
+13:35:09 T_ROB1-> giPlcCommand=1120
+13:35:14 T_ROB1-> goPlcResponse=>1130
+13:35:37 T_ROB1-> giPlcCommand=1140
+13:35:40 T_ROB1-> goPlcResponse=>1150
+13:35:40 T_ROB1-> giPlcCommand=0
+13:35:41 T_ROB1-> goPlcResponse=>0
+13:35:51 T_ROB1->J:9000
+13:38:06 T_ROB1-> giPlcCommand=1000
+13:38:06 T_ROB1->J:1000
+13:38:06 T_ROB1-> goPlcResponse=>1000
+13:38:23 T_ROB1-> goPlcResponse=>1010
+13:38:23 T_ROB1-> giPlcCommand=1032
+13:38:24 T_ROB1-> goPlcResponse=>1032
+13:38:32 T_ROB1-> goPlcResponse=>1040
+13:38:32 T_ROB1-> giPlcCommand=1100
+13:38:33 T_ROB1-> goPlcResponse=>1100
+13:38:37 T_ROB1-> goPlcResponse=>1110
+13:38:37 T_ROB1-> giPlcCommand=1120
+13:38:43 T_ROB1-> goPlcResponse=>1130
+13:39:05 T_ROB1-> giPlcCommand=1140
+13:39:08 T_ROB1-> goPlcResponse=>1150
+13:39:08 T_ROB1-> giPlcCommand=0
+13:39:10 T_ROB1-> goPlcResponse=>0
+13:39:10 T_ROB1-> giPlcCommand=2000
+13:39:10 T_ROB1->J:2000
+13:39:10 T_ROB1-> goPlcResponse=>2000
+13:39:16 T_ROB1-> goPlcResponse=>2010
+13:39:16 T_ROB1-> giPlcCommand=2030
+13:39:17 T_ROB1-> goPlcResponse=>2030
+13:39:26 T_ROB1-> goPlcResponse=>2040
+13:39:26 T_ROB1-> giPlcCommand=0
+13:39:27 T_ROB1-> goPlcResponse=>0
+13:39:37 T_ROB1->J:9000
+13:41:31 T_ROB1-> giPlcCommand=1000
+13:41:31 T_ROB1->J:1000
+13:41:31 T_ROB1-> goPlcResponse=>1000
+13:41:47 T_ROB1-> goPlcResponse=>1010
+13:41:47 T_ROB1-> giPlcCommand=1033
+13:41:49 T_ROB1-> goPlcResponse=>1033
+13:41:57 T_ROB1-> goPlcResponse=>1040
+13:41:57 T_ROB1-> giPlcCommand=1100
+13:41:57 T_ROB1-> goPlcResponse=>1100
+13:42:01 T_ROB1-> goPlcResponse=>1110
+13:42:02 T_ROB1-> giPlcCommand=1120
+13:42:07 T_ROB1-> goPlcResponse=>1130
+13:42:30 T_ROB1-> giPlcCommand=1140
+13:42:32 T_ROB1-> goPlcResponse=>1150
+13:42:32 T_ROB1-> giPlcCommand=0
+13:42:34 T_ROB1-> goPlcResponse=>0
+13:42:44 T_ROB1->J:9000
+13:45:13 T_ROB1-> giPlcCommand=1000
+13:45:13 T_ROB1->J:1000
+13:45:13 T_ROB1-> goPlcResponse=>1000
+13:45:30 T_ROB1-> goPlcResponse=>1010
+13:45:30 T_ROB1-> giPlcCommand=1034
+13:45:31 T_ROB1-> goPlcResponse=>1034
+13:45:39 T_ROB1-> goPlcResponse=>1040
+13:45:39 T_ROB1-> giPlcCommand=1100
+13:45:39 T_ROB1-> goPlcResponse=>1100
+13:45:45 T_ROB1-> goPlcResponse=>1110
+13:45:45 T_ROB1-> giPlcCommand=1120
+13:45:50 T_ROB1-> goPlcResponse=>1130
+13:46:13 T_ROB1-> giPlcCommand=1140
+13:46:15 T_ROB1-> goPlcResponse=>1150
+13:46:15 T_ROB1-> giPlcCommand=0
+13:46:17 T_ROB1-> goPlcResponse=>0
+13:46:27 T_ROB1->J:9000
+13:48:34 T_ROB1-> giPlcCommand=1000
+13:48:34 T_ROB1->J:1000
+13:48:34 T_ROB1-> goPlcResponse=>1000
+13:48:51 T_ROB1-> goPlcResponse=>1010
+13:48:51 T_ROB1-> giPlcCommand=1035
+13:48:52 T_ROB1-> goPlcResponse=>1035
+13:49:00 T_ROB1-> goPlcResponse=>1040
+13:49:00 T_ROB1-> giPlcCommand=1100
+13:49:00 T_ROB1-> goPlcResponse=>1100
+13:49:05 T_ROB1-> goPlcResponse=>1110
+13:49:05 T_ROB1-> giPlcCommand=1120
+13:49:11 T_ROB1-> goPlcResponse=>1130
+13:49:33 T_ROB1-> giPlcCommand=1140
+13:49:36 T_ROB1-> goPlcResponse=>1150
+13:49:36 T_ROB1-> giPlcCommand=0
+13:49:38 T_ROB1-> goPlcResponse=>0
+13:49:38 T_ROB1-> giPlcCommand=3011
+13:49:38 T_ROB1->J:3011
+13:49:38 T_ROB1-> goPlcResponse=>3011
+13:49:48 T_ROB1-> goPlcResponse=>3020
+13:49:48 T_ROB1-> giPlcCommand=3030
+13:49:49 T_ROB1-> goPlcResponse=>3030
+13:49:56 T_ROB1-> goPlcResponse=>3040
+13:49:56 T_ROB1-> giPlcCommand=0
+13:49:57 T_ROB1-> goPlcResponse=>0
+13:50:08 T_ROB1->J:9000
+13:55:25 T_ROB1->E:QStop
+13:55:55 T_ROB1->E:Restart
