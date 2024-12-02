@@ -4,27 +4,29 @@ use strict;
 use warnings;
 
 # Global data array. Will be filled and sorted for easy processing.
-my(@RESULTS);
+our @RESULTS;
+
+
 
 # ---------- Custom parsing code goes here ---------------------------------------
 
 # Every line in @RESULTS should be in the following format
 # <YEAR>;<MONTH>;<DAY>;<HOUR>;<MINUTE>;<SECOND>;<LOG_TEXT_LINE>
 
-
 sub custom_processor {
 	
 	# Write resultarray to file
-	open(FILE,'>log2data.log');
+	open(my $FILE, '>log2data.log');
 	foreach (@RESULTS) {
-	  print FILE $_."\n";
+		print $FILE $_."\n";
 	}
-	close(FILE);
+	close($FILE);
 	
 }
 
-
 # --------------------------------------------------------------------------------
+
+
 
 $| = 1;
 
@@ -46,13 +48,12 @@ exit;
 
 sub scandir {
 	my($dirname) = @_;
-	my($DIR,$de);
 	
 	print '  '.$dirname."\n";
 	
-	opendir($DIR,$dirname) or die('Error - Cant open "'.$dirname.'"');
+	opendir(my $DIR, $dirname) or die('Error - Cant open "'.$dirname.'"');
 	
-	foreach $de (readdir($DIR)) {
+	foreach my $de (readdir($DIR)) {
 		# Skip '.' and '..'
 		next if ($de =~ /^\.{1,2}$/);
 		
@@ -76,38 +77,39 @@ sub scandir {
 
 sub readlogfile {
 	my($filename) = @_;
-	my($filedate,$file_yer,$file_mth,$file_day,$line_hur,$line_min,$line_sec,$line_text,$line,$FILE);
 	
 	print '    '.$filename."\n";
 	
-	open($FILE,'<'.$filename) or die('Error - Cant open "'.$filename.'"');
+	open(my $FILE,'<'.$filename) or die 'Error: '.$filename.' - Can not open file';
+	
+	my($file_yer, $file_mth, $file_day);
 	
 	# Read first line (date)
-	$filedate = <$FILE>;
-	$filedate =~ /^(\d{4})-(\d{2})-(\d{2})/;
-	$file_yer = $1;
-	$file_mth = $2;
-	$file_day = $3;
+	if (<$FILE> =~ /^(\d{4})-(\d{2})-(\d{2})/) {
+		($file_yer, $file_mth, $file_day) = ($1, $2, $3);
+	} else {
+		die 'ERROR: '.$filename.' - Does not look like a logfile'."\n";
+	}
 	
 	# Read content lines
-	while ($line = <$FILE>) {
-		$line =~ /^(\d{2}):(\d{2}):(\d{2})\s+(.*)$/;
-		$line_hur = $1;
-		$line_min = $2;
-		$line_sec = $3;
-		$line_text = $4;
+	while (my $line = <$FILE>) {
+		if (my($line_hur, $line_min, $line_sec, $line_text) = $line =~ /^(\d{2}):(\d{2}):(\d{2})\s+(.*)$/) {
+			
+			# If text ends with Newline (/) = read next line and append to current
+			while ($line_text =~ /\/$/) {
+				# Chop off the frontslash (/)
+				chop($line_text);
+				# Read the next line and extract only the text
+				my(undef, undef, undef, $next_line) = <$FILE> =~ /^(\d{2}):(\d{2}):(\d{2})\s+(.*)$/;
+				# Append to current line text
+				$line_text .= $next_line;
+			}
 		
-		# Newline (/) = append to current
-		while ($line_text =~ /\/$/) {
-			chop($line_text);
-			$line = $line_text;
-			$line = <$FILE>;
-			$line =~ /^(\d{2}):(\d{2}):(\d{2})\s+(.*)$/;
-			$line_text .= $4;
+			# Add to result array
+			push(@RESULTS, $file_yer.';'.$file_mth.';'.$file_day.';'.$line_hur.';'.$line_min.';'.$line_sec.';'.$line_text);
+		} else {
+			print 'WARNING: '.$filename.' - Line doesn\'t look right ('.$line.')';
 		}
-		
-		# Add to result array
-		push(@RESULTS,$file_yer.';'.$file_mth.';'.$file_day.';'.$line_hur.';'.$line_min.';'.$line_sec.';'.$line_text);
 	}
 	
 	close($FILE);
